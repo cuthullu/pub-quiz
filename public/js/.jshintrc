@@ -1,0 +1,14 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "quotmark": "double",
+  "undef": true,
+  "browser": true,
+  "ignore": "vendor/*",
+  "globals": {
+    "angular": true,
+    "console" : true,
+    "Map" : true
+  }
+}
