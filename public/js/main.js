@@ -1,4 +1,4 @@
-angular.module("ChatApp", ["ngRoute", "ngMaterial", "ngAnimate", "ngStorage",
+angular.module("PubQuizApp", ["ngRoute", "ngMaterial", "ngAnimate", "ngStorage",
     "luegg.directives", "ngSanitize"])
     .config(["$routeProvider", "$locationProvider",
         function ($routeProvider) {

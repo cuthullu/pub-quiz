@@ -1,14 +1,17 @@
 <md-content layout="row" layout-align="center start" layout-fill>
 	<md-content layout-padding layout-fill class="new-quiz" >
 		<div>
-			<form name="quizForm">
+			<form name="quizForm"  ng-submit="vm.submit()">
 				<div layout-gt-xs="row">
 					<md-input-container class="md-block" flex-gt-xs>
 						<label>URl</label>
-						<input ng-model="quiz.url">
+						<input ng-model="vm.quiz.url">
 					</md-input-container>
-					<md-datepicker ng-model="quiz.date" md-placeholder="Enter date">
+					<md-datepicker ng-model="vm.quiz.date" md-placeholder="Enter date">
 					</md-datepicker>
+					<md-input-container>
+						<input type="submit" id="submit" value="Submit">
+					</md-input-container>
 				</div>
 			</form>
 		</div>

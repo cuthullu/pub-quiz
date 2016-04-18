@@ -1,4 +1,4 @@
-angular.module("ChatApp").controller("RoomController",
+angular.module("PubQuizApp").controller("RoomController",
     function ($scope, $rootScope, roomService, $routeParams, $localStorage) {
 
         var messages = [];
